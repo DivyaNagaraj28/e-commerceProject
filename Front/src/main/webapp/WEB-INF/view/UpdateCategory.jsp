@@ -25,18 +25,18 @@
 			<tr>
 				<td>CategoryId</td>
 				<td><input type="text" id="categoryId" name="categoryId"
-					value="${display.categoryId}"  /></td><!-- readonly="readonly" -->
+					value="${show.categoryId}" readonly="readonly"  /></td>
 			</tr>
 			
 			<tr>
 				<td>CategoryName</td>
 				<td><input type="text" id="categoryName" name="categoryName"
-					value="${display.categoryName}" /></td>
+					value="${show.categoryName}" /></td>
 			</tr>
 			<tr>
 				<td>CategoryDesc</td>
 				<td><input type="text" id="categoryDesc" name="categoryDesc"
-					value="${display.categoryDesc}" /></td>
+					value="${show.categoryDesc}" /></td>
 			</tr>
 			<tr>
 				<td colspan="2"><input class="btn btn-success" type="submit"
